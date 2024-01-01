@@ -63,8 +63,11 @@ useEffect(() => {
                     </div>
                 ))}
             </div>
-            <div className='runtime'>Runtime: {movieData.runtime} minutes - </div>
+            <div className='runtime'>Runtime: {movieData.runtime} minutes  </div>
           <div className='Budget'> Budget: {movieData.budget}$</div>
+          <div className='Budget'> Revenue: {movieData.revenue}$</div>
+          <div className='Budget'> IMDB Rating: {movieData.vote_average}/10</div>
+
         
         </div>
         <div className='RightColumn'>
