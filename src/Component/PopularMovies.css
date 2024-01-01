@@ -1,0 +1,40 @@
+.grid-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   gap: 7rem; 
+   padding: 1rem;
+   color: white;
+   font-size: 20px;
+   border-block-color: red;
+   
+   
+}
+
+.PopularimageTitles, .PopularimagePosters{
+   background-color: rgb(61, 147, 133);
+   
+}
+
+.PopularimagePosters{
+   width: 100%; /* Full width of the container */
+   height: auto; /* Maintain aspect ratio */
+}
+
+/*  the big popular movie title*/
+.popularMovieTitle{ 
+   font-size: 50px;
+   color: white;
+   border: 10px;
+   background-color: rgb(41, 90, 123);
+   border-style: solid;
+   border-color: rgb(41, 90, 123);
+   
+}
+
+.movie-Item {
+   border: 2px solid #ccc; /* Example: 2px solid grey border */
+   padding: 10px; /* Optional: Adds some space inside the border */
+  
+   border-radius: 10px; /* Optional: Rounds the corners of the border */
+  
+ }

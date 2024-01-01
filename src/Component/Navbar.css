@@ -1,0 +1,32 @@
+/* Navbar.css */
+.navbar {
+  display: flex; /* Use flexbox to lay out children inline */
+  align-items: center; /* Vertically center align items */
+  justify-content: space-between; /* Space out the navbar and search bar */
+ /* Your desired background color */
+  font-size: 70px;
+  padding: 0.5rem 1rem; /* Add some padding around the navbar */
+}
+
+.searchBar {
+  /* Styles for the search bar form, if necessary */
+
+ 
+
+}
+
+.navbar, .searchBar, .websiteName{
+  background-color:rgb(13, 19, 136) ;
+}
+.searchInput, .searchButton {
+  
+  font-size: 20px;
+  /* Styles for the search input, if necessary */
+}
+
+.websiteName{
+
+  color: white;
+}
+
+
