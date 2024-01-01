@@ -1,0 +1,79 @@
+.img{
+    max-width: 100%;
+}
+
+.container{
+    height: 900px;
+   
+    
+}
+
+
+.MovieName, .MovieOverView, .Genre, .genreContainer {
+    background: transparent;
+   
+    
+}
+
+.MovieBackdrop{
+    width: 100%;
+
+}
+
+
+    .textInfo {
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        color: white;
+        /* Add some padding */
+        height: 100%;
+       
+        /* No need for 'background: none;' as 'background-color' is already set */
+    }
+
+
+
+.MovieDetails {
+    padding-left: 20px;
+    background: none;
+    
+    display: flex;
+   
+}
+
+.LeftColumn {
+    font-size: 25px;
+  
+    /* Space between items */
+    margin-left: 100px;
+    padding-left: 20px;
+   
+
+    flex: 1; /* Takes up remaining space */
+}
+
+
+
+
+
+.RightColumn {
+    background: transparent;
+    
+    /* Adjust width as needed */
+    flex-basis: 300px; /* Or set a specific width */
+}
+
+
+.MoviePoster {
+    width: 100%; /* Full width of its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+ .plot{
+    font-size: 30px;
+ }
+
+ .MovieName{
+text-align: left;
+margin-left: 115px;
+ }

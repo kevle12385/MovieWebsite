@@ -3,3 +3,12 @@ body, html {
   padding: 0;
 }
 
+
+*{
+  
+  font-family: 'Noto Serif', serif;
+  /* background-color: rgba(55, 84, 201, 0.87); */
+  background-color:rgb(30, 28, 28);
+  padding: 0;
+  
+}

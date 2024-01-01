@@ -1,40 +1,131 @@
 .grid-container {
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-   gap: 7rem; 
+   gap: 4rem; 
    padding: 1rem;
+   
+   
    color: white;
    font-size: 20px;
    border-block-color: red;
-   
+   width: 100%; /*fix me */
+   box-sizing: border-box;
    
 }
 
+
 .PopularimageTitles, .PopularimagePosters{
-   background-color: rgb(61, 147, 133);
-   
+   background-color: rgb(42, 41, 41);
+  
+
 }
 
 .PopularimagePosters{
    width: 100%; /* Full width of the container */
    height: auto; /* Maintain aspect ratio */
+
 }
 
-/*  the big popular movie title*/
+ /* the big popular movie title */
 .popularMovieTitle{ 
    font-size: 50px;
    color: white;
    border: 10px;
-   background-color: rgb(41, 90, 123);
+   background-color: rgb(42, 41, 41);
    border-style: solid;
-   border-color: rgb(41, 90, 123);
+   border-color: rgb(42, 41, 41);
+   margin-left: 42px;
+   
+  
+}
+/* background of popular movie*/
+.popularmovietitlecontainer{ 
+   background-color: rgb(42, 41, 41);
+   
    
 }
 
 .movie-Item {
    border: 2px solid #ccc; /* Example: 2px solid grey border */
    padding: 10px; /* Optional: Adds some space inside the border */
-  
+  background-color: rgb(42, 41, 41);
+  min-height: 75px;
    border-radius: 10px; /* Optional: Rounds the corners of the border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+   border-radius: 10px; 
+   
+   
+    overflow: hidden; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+ }
+ 
+  .movie-Item:hover {
+  
+   transform: scale(1.05);
+ 
+ 
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  
+ } 
+
+ .PopularimageTitles{
+   font-size: 20px;
   
  }
+
+
+
+
+ .LargePictureDiplay{
+   box-sizing: border-box;
+   width: 100%;      /* Stretch across the container width */
+   height: 100vh;    /* Stretch vertically to the full viewport height */
+
+   object-fit: cover; /* This will crop and cover the area without distorting the image */
+   display: block;
+   
+   z-index: 0;
+ }
+
+
+ .LargeDisplayContainer {
+   position: relative;
+   display: flex; /* Flex layout for the container */
+   flex-direction: column;
+   width: 100%;
+ }
+
+ 
+ .LargeOverview {
+   color: white;
+   text-align: left;
+   position: relative;
+   max-height: 0;
+   font-size: clamp(20px, 2px, 27px); /*min, preferred, max */
+   bottom: 150px;
+   margin-left: 30px;
+ }
+  
+ .LargePictureTitleDiplay{
+   position: relative;
+   color: white;
+   z-index: 1;
+   
+  
+   font-size: clamp(20px, 10px, 27px);
+   max-height: 0;
+   bottom: 200px;
+   margin-left: 30px;
+   
+   
+ }
+
+ .LargeTextDisplayContainer{
+   z-index: 2;
+   max-width: 80%;
+ 
+
+ }
+
+
+ 

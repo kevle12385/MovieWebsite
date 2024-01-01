@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Navbar from '../Component/Navbar'
-import './Frontpage.css'
+
 import PopularMovies from '../Component/PopularMovies'
+import LoadMore from '../Component/LoadMore'
 
 
-function Frontpage({handleClick, homeClicked}) {
+function Frontpage({handleClick, homeClicked, pageNumber, setPageNumber}) {
 
 
 // the goal is to extract the
@@ -12,8 +13,16 @@ function Frontpage({handleClick, homeClicked}) {
 
   return (
     <div className='frontPage'>
-      <Navbar homeClicked={homeClicked} />
-       <PopularMovies handleClick={handleClick} homeClicked={homeClicked}/>
+     
+       <PopularMovies handleClick={handleClick}
+        homeClicked={homeClicked}
+        pageNumber={pageNumber}
+        setPageNumber={setPageNumber}
+       />
+      {/* <LoadMore  
+      pageNumber={pageNumber}
+      setPageNumber={setPageNumber} /> */}
+
     </div>
   )
 }
