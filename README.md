@@ -1,8 +1,9 @@
-# React + Vite
+# Movie Search Application Front End
+Single Page React application that uses the the TMDB API to display movies and its data. It allows the user to search for movies. When the poster is clicked, it will rerender the screen to display the the movie data more in depth.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##Technologies used
+- ReactJS
+- JSX
+- CSS
+- HTML
+- Axios NPM Package
