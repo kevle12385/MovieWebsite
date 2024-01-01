@@ -21,7 +21,7 @@
 
 .searchInput, .searchButton {
   color: black;
-  
+  margin-bottom: 10px;
   font-size: 25px;
   margin-right: 30px;
   border-style: solid;
@@ -37,7 +37,8 @@
 
 .homeButton{
   color: white;
-  background: none
+  background: none;
+    
   
 }
 
